@@ -1,0 +1,9 @@
+a = int(input('Enter any value: '))
+countOf100s = a//100  # checks how many times the given number can be divided by 100
+a %= 100              # Gives the remainder after number is divided by 100
+countOf50s = a//50    # checks how many times the remainder can be divided by 50
+a %= 50               # Gives the remainder after number is divided by 50
+countOf10s = a//10    # checks how many times the remainder can be divided by 10
+print('Count of 100s =',countOf100s)
+print('Count of 50s =',countOf50s)
+print('Count of 10s =',countOf10s)
